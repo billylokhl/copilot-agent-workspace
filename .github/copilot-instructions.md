@@ -8,6 +8,8 @@
 | Trigger | Phase | Priority | Skill File Path |
 | :--- | :--- | :--- | :--- |
 | Git Operations & Commits | Pre-commit | High | `.github/skills/git-commit-workflow.md` |
+| Git Commit Examples & Branch Splitting | Reference | High | `.github/skills/git-commit-workflow-examples.md` |
+| Git Hygiene, CI Parity & MR Links | Pre-action | High | `.github/skills/git-commit-workflow-appendix.md` |
 | Untracking Files / Hygiene | Pre-action | Medium | `.github/skills/git-tracking-hygiene.md` |
 | Executing Terminal Commands | Pre-action | High | `.github/skills/terminal-reliability.md` |
 | Workspace Virtual Environments | Incident | High | `.github/skills/python-env-selection.md` |
