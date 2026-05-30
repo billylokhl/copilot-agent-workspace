@@ -1,0 +1,24 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Python Virtual Environments & Caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Build and Distribution Artifacts
+build/
+dist/
+*.egg-info/
+
+# Local Logs & Configuration
+*.log
+.vscode/
+.idea/
