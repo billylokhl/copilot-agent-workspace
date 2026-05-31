@@ -1,67 +1,9 @@
+---
+name: git-commit-workflow-appendix
+description: 'CI parity checks, commit reliability guards, and GitLab MR link generation'
+---
+
 # Git Commit Workflow Appendix
-
-## Git Tracking Hygiene
-
-### 1. List All Tracked Files
-
-Bash
-
-```bash
-git ls-files
-```
-
-### 2. Identify Problem Files
-
-Look for:
-
-- Build artifacts: `*.pyc`, `__pycache__/`, `dist/`, `build/`, `*.egg-info/`
-- Dependencies: `node_modules/`, `.venv/`, `venv/`
-- IDE configs: `.vscode/`, `.idea/`, `*.swp`
-- Logs and temp files: `*.log`, `*.tmp`, `.DS_Store`
-- Secrets: `.env`, `*.key`, `credentials.*`
-
-### 3. Check `.gitignore`
-
-Bash
-
-```bash
-cat .gitignore
-```
-
-### 4. Fix Issues
-
-Bash
-
-```bash
-# Remove from git but keep on disk
-git rm --cached path/to/file
-
-# Add missing patterns to .gitignore
-echo "pattern_to_ignore" >> .gitignore
-```
-
-### 5. Commit if Changes Made
-
-Bash
-
-```bash
-git add .gitignore
-git commit -F - <<EOF
-chore(git): update gitignore patterns
-
-Prevents tracking of build artifacts and local environment files
-to keep the repository clean and avoid committing sensitive data.
-EOF
-```
-
-## Success Criteria
-
-- No generated files are tracked
-- No IDE configs are tracked
-- No test outputs are tracked
-- No secrets/credentials are tracked
-- All source code, config, and docs are tracked
-- `.gitignore` covers all common generated patterns
 
 ## Commit Reliability Guard (Tool-Driven Shells)
 

@@ -1,3 +1,8 @@
+---
+name: instruction-governance
+description: 'Enforce structural synchronicity across global and granular configuration rule sets'
+---
+
 # Instruction Governance
 
 ## Purpose

@@ -1,3 +1,8 @@
+---
+name: terminal-reliability
+description: 'Guarantees autonomous command execution without hanging on interactive prompts or pagination'
+---
+
 # Terminal Reliability
 
 ## Purpose

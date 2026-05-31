@@ -1,3 +1,8 @@
+---
+name: code-review
+description: 'Automated parallelized audits for security (OWASP Top 10), correctness, and style compliance with strict grounding'
+---
+
 # Parallel Code Review Engine
 
 ## Purpose

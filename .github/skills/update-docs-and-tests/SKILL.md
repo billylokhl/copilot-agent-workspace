@@ -1,3 +1,8 @@
+---
+name: update-docs-and-tests
+description: 'Enforce synchronous updates across code, documentation, and tests to prevent architectural drift'
+---
+
 # Sync Docs and Tests
 
 ## Purpose

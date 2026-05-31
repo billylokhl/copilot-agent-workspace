@@ -1,3 +1,8 @@
+---
+name: github-cli-automation
+description: 'Non-interactive GitHub CLI execution for repositories, PRs, actions, and merges using gh'
+---
+
 # GitHub CLI Automation Engine
 
 ## Purpose

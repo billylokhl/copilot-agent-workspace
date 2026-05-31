@@ -1,3 +1,8 @@
+---
+name: design-doc-review
+description: 'Rigorous structural criteria for critique and safety auditing of design specifications'
+---
+
 # Design Doc Review Engine
 
 ## Purpose

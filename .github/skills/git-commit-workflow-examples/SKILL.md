@@ -1,6 +1,11 @@
+---
+name: git-commit-workflow-examples
+description: 'Detailed examples for branch splitting, heredoc commits, and disallowed message patterns'
+---
+
 # Git Commit Workflow Examples
 
-Detailed examples extracted from `.github/skills/git-commit-workflow.md`.
+Detailed examples extracted from `.github/skills/git-commit-workflow/SKILL.md`.
 
 ## Branch Purpose Mismatch Examples
 

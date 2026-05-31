@@ -1,3 +1,8 @@
+---
+name: python-env-selection
+description: 'Detect and activate the correct Python virtual environment for the workspace'
+---
+
 # Python Environment Selection
 
 ## Purpose

@@ -1,3 +1,8 @@
+---
+name: git-tracking-hygiene
+description: 'Safely remove accidentally tracked build artifacts, secrets, and ignored files from git index'
+---
+
 # Git Tracking Hygiene
 
 ## Purpose

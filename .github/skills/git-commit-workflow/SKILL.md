@@ -1,3 +1,8 @@
+---
+name: git-commit-workflow
+description: 'Create reliable, scope-correct commits with conventional commit messages and mandatory body text'
+---
+
 # Git Commit Workflow
 
 Create reliable, scope-correct commits with proper conventional commit messages.
@@ -52,7 +57,7 @@ Branch purpose must be validated for each new commit, not just once per session.
 
 If scope no longer matches, stop and split to a correctly scoped branch. For branch-split command sequences and examples, see:
 
-1. `.github/skills/git-commit-workflow-examples.md`
+1. `.github/skills/git-commit-workflow-examples/SKILL.md`
 
 ### 1. Review All Changes
 
@@ -78,13 +83,17 @@ Quick checks:
 - [ ] Tests cover new/modified code paths
 - [ ] All tests pass
 
+For comprehensive pre-flight documentation and test update patterns, see:
+
+1. `.github/skills/update-docs-and-tests/SKILL.md`
+
 ### 3.5. CI Parity Guard (MANDATORY)
 
 Run CI-parity checks before commit. At minimum, run the repository's style checks and markdown lint for touched markdown files.
 
 For full CI-parity and rollout-aware details, see:
 
-1. `.github/skills/git-commit-workflow-appendix.md`
+1. `.github/skills/git-commit-workflow-appendix/SKILL.md`
 
 ### 4. Stage First Logical Group
 
@@ -133,7 +142,7 @@ EOF
 
 For full heredoc examples and disallowed message patterns, see:
 
-1. `.github/skills/git-commit-workflow-examples.md`
+1. `.github/skills/git-commit-workflow-examples/SKILL.md`
 
 **Hard reliability rules:**
 
@@ -154,7 +163,7 @@ git show
 
 For split-command commit/verify examples, see:
 
-1. `.github/skills/git-commit-workflow-examples.md`
+1. `.github/skills/git-commit-workflow-examples/SKILL.md`
 
 ### 7.5 Commit Reliability Guard (Tool-Driven Shells)
 
@@ -169,7 +178,7 @@ git status --short
 
 For deterministic fallback patterns and troubleshooting details, see:
 
-1. `.github/skills/git-commit-workflow-appendix.md`
+1. `.github/skills/git-commit-workflow-appendix/SKILL.md`
 
 ### 8. Repeat for Remaining Groups
 
@@ -189,14 +198,6 @@ Bash
 git status            # Should be clean
 git log --oneline -5  # Review history
 ```
-
-### 10. MR Link Generation (MANDATORY)
-
-When providing a GitLab MR creation link, prefill source branch, target branch, and recommended title (description recommended).
-
-For the full URL template and rationale, see:
-
-1. `.github/skills/git-commit-workflow-appendix.md`
 
 ## Success Criteria
 
