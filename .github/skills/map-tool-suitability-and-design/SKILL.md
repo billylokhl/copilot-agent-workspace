@@ -1,3 +1,8 @@
+---
+name: map-tool-suitability-and-design
+description: 'Govern creation and structuring of Model Context Protocol (MCP) handlers and custom tool schemas'
+---
+
 # Model Tool Suitability and Design
 
 ## Purpose

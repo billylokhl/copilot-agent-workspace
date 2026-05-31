@@ -1,3 +1,8 @@
+---
+name: design-doc-authoring
+description: 'Enforce 11-section technical architecture framework for complex system designs'
+---
+
 # Design Doc Authoring
 
 ## Purpose
@@ -21,7 +26,11 @@ Mandatory before writing or implementing any major engineering overhaul, breakin
    9. `## Execution Plan`
    10. `## Open Questions & Risks`
    11. `## References`
-3. Route the completed draft directly into the `design-doc-review.md` validation engine before breaking ground on code.
+3. Route the completed draft into the design doc review validation before breaking ground on code.
+
+For design doc review criteria, see:
+
+1. `.github/skills/design-doc-review/SKILL.md`
 
 ## Success Criteria
 The technical architectural design document is fully articulated across all 11 core criteria blocks without shortcuts.

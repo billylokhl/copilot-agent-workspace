@@ -1,3 +1,8 @@
+---
+name: version-bump-strategy
+description: 'Rigid SemVer evaluation paths for updating codebase version milestones'
+---
+
 # Semantic Versioning Strategy
 
 ## Purpose
@@ -14,6 +19,11 @@ Triggered when preparing releases, altering public APIs, extracting packages, or
    - `MAJOR`: Breaking architectural updates, API deletions, or backward-incompatible signatures.
 2. If separating code out into a standalone internal module package, initialize its baseline version state strictly at `0.1.0`.
 3. Update version strings synchronously inside both `pyproject.toml` and the master `CHANGELOG.md`.
+4. Commit the version bump using conventional commit format with type `chore(release)`.
+
+For proper version bump commits, see:
+
+1. `.github/skills/git-commit-workflow/SKILL.md`
 
 ## Success Criteria
 Version bumps precisely reflect code mutation scopes, keeping configurations and changelogs perfectly mirrored.
