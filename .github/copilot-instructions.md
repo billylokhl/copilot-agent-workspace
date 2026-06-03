@@ -7,3 +7,5 @@
 # Notes
 
 Progressive skill triggers and custom agent routing have been migrated to the global instruction entrypoint at `.github/instructions/global-agent.instructions.md` to enable native discovery and keep this file focused on workspace-specific policies and examples.
+
+Note: The native source-of-truth for global agent instructions is `.github/instructions/global-agent.instructions.md`. This file remains as a workspace-scoped compatibility fallback; archived agents listed here are non-authoritative.
