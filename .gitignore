@@ -26,4 +26,3 @@ dist/
 # Ignore model-discovery-extension local build/install artifacts
 tools/model-discovery-extension/node_modules/
 tools/model-discovery-extension/out/
-tools/model-discovery-extension/package-lock.json
