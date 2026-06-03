@@ -1,0 +1,13 @@
+{
+  "cost_classes": { "order": ["low","medium","high"] },
+  "capability_tiers": { "Tier 1":{}, "Tier 2":{}, "Tier 3":{} },
+  "role_requirements": { "Researcher":"Tier 1", "Builder":"Tier 2", "Architect":"Tier 3", "Auditor":"Tier 3" },
+  "model_families": {
+    "openai/": { "capability_tier":"Tier 1", "cost_class":"low" },
+    "gptx/": { "capability_tier":"Tier 3", "cost_class":"high" },
+    "builder/": { "capability_tier":"Tier 2", "cost_class":"medium" },
+    "internal/": { "capability_tier":"Tier 1", "cost_class":"low", "internal": true }
+  },
+  "vendor_preference": { "order": ["openai","gptx","builder"] },
+  "role_hierarchy": ["Researcher","Builder","Architect","Auditor"]
+}

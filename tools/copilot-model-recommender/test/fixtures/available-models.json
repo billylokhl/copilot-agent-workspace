@@ -1,0 +1,9 @@
+{
+  "models": [
+    {"id":"tier1-1","family":"openai/text","vendor":"openai","maxInputTokens":2048},
+    {"id":"tier2-1","family":"builder/fast","vendor":"builder","maxInputTokens":4096},
+    {"id":"tier3-1","family":"gptx/ultra","vendor":"gptx","maxInputTokens":8192},
+    {"id":"internal-1","family":"internal/secret","vendor":"internal","internal":true,"maxInputTokens":1024},
+    {"id":"disabled-1","family":"gptx/legacy","vendor":"gptx","maxInputTokens":1024}
+  ]
+}
