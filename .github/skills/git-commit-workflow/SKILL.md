@@ -1,11 +1,22 @@
 ---
 name: git-commit-workflow
-description: 'Create reliable, scope-correct commits with conventional commit messages and mandatory body text'
+description: 'Create reliable, scope-correct commits with conventional commit messages and mandatory body text. Use when: commit this; commit to git; create a commit; git commit these changes; stage and commit; make a conventional commit; compose commit message.'
 ---
 
 # Git Commit Workflow
 
 Create reliable, scope-correct commits with proper conventional commit messages.
+
+## Use when / Natural prompts
+- commit this
+- commit to git
+- create a commit
+- git commit these changes
+- stage and commit
+- make a conventional commit
+- compose commit message
+
+This skill owns safe staging, status review, conventional commits, and commit-message composition.
 
 ## Non-Interactive Requirement (HARD RULE)
 

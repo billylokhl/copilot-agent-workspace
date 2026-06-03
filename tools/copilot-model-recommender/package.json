@@ -1,0 +1,13 @@
+{
+  "name": "copilot-model-recommender",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {},
+  "scripts": {
+    "validate:policy": "node ./scripts/validate-policy.js",
+    "rank": "node ./scripts/rank-models.js",
+    "recommend": "node ./scripts/recommend.js",
+    "test": "node ./test/run-tests.js"
+  }
+}
