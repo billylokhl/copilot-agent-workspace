@@ -4,15 +4,6 @@
 - **Context Isolation:** Keep runtime lean. Add `.venv/`, `node_modules/`, `build/`, `dist/`, `__pycache__/`, and `*.log` to context exclusions immediately.
 - **Code Reviews:** Strict Grounding Rule. Findings must cite a specific line number or named standard. No speculative warnings.
 
-# Core Skills (Always Active)
+# Notes
 
-Read and apply these skills for all relevant operations:
-
-| When | Skill Path |
-| :--- | :--- |
-| Any git commit or branch operation | `.github/skills/git-commit-workflow/SKILL.md` |
-| Any terminal command execution | `.github/skills/terminal-reliability/SKILL.md` |
-| Code review or quality audit request | `.github/skills/code-review/SKILL.md` |
-| Workspace initialization or context changes | `.github/skills/workspace-context-hygiene/SKILL.md` |
-
-**Note:** Core skills reference additional specialized skills internally as needed. Additional skills available in `.github/skills/` for specialized workflows (repository setup, design docs, versioning, Python environments, GitHub automation, etc.).
+Progressive skill triggers and custom agent routing have been migrated to the global instruction entrypoint at `.github/instructions/global-agent.instructions.md` to enable native discovery and keep this file focused on workspace-specific policies and examples.

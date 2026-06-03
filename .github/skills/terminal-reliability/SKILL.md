@@ -13,9 +13,21 @@ Mandatory execution rules for every single terminal tool-call or shell environme
 
 ## Procedure
 
-1. Disable interactive CLI pagers globally before executing commands by appending appropriate environment variables or raw inline overrides (e.g., `git --no-pager`, or piping directly into `cat`).
-2. Execute single, distinct tasks per terminal block. Never stitch commands onto the tail line of a heredoc block terminator.
-3. Run an explicit, independent post-action validation command (such as `ls`, `grep`, or file checking) to confirm the success state of the file system rather than relying solely on default exit codes.
+1. Disable interactive CLI pagers globally before executing commands by appending appropriate environment variables or
+	raw inline overrides (e.g., `git --no-pager`, or piping directly into `cat`).
+2. Execute single, distinct tasks per terminal block. Never stitch commands onto the tail line of a heredoc block
+	terminator.
+3. Run an explicit, independent post-action validation command (such as `ls`, `grep`, or file checking) to confirm the
+	success state of the file system rather than relying solely on default exit codes.
+
+For Python execution, testing, linting, or dependency commands, see:
+
+1. `.github/skills/python-env-selection/SKILL.md`
+
+For GitHub CLI repository, PR, Actions, or merge commands, see:
+
+1. `.github/skills/github-cli-automation/SKILL.md`
 
 ## Success Criteria
-Commands execute to completion completely uninhibited, returning control to the shell loop with a cleanly logged exit code.
+Commands execute to completion completely uninhibited, returning control to the shell loop with a cleanly logged exit
+code.
