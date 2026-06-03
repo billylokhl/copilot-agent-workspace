@@ -3,12 +3,6 @@ function cmp(a,b){return a<b?-1:a>b?1:0}
 export function normalizeModel(m){
   return Object.assign({maxInputTokens: m.maxInputTokens||0, vendor: m.vendor||m.provider||'unknown', family: m.family||m.id||''}, m);
 }
-
-export function assignPolicyToModel(model, policy) {
-  const famKey = require('url').pathToFileURL ? null : null; // noop to satisfy linter
-  const { longestPrefixMatch } = awaitImport('./policy.js');
-}
-
 async function awaitImport(p){ return (await import(p)) }
 
 export async function applyPolicy(models, policy) {
